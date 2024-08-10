@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Guessing Game</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="guessing.css">
+
+  </head>
+
+  <body>
+
+    <div class="bg-container">
+
+        <div class="bg-white text-center pt-5 pb-5">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" class="guess-game-img">
+            </div>
+
+            <p class="game-description">Find out the right number between 1 to 100</p>
+
+        </div>
+
+        <div class="guess-bg-container text-center">
+
+            <p class="guess-heading">Guess The Number <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="guess-number-image"></p>
+           
+            <input type="text" class="user-input" id="guessNumber">
+
+            <div>
+                <button class="btn btn-info check-guess" onclick="clickButton()">Check</button>
+            </div>
+
+            <p class="game-result" id="gameResult"></p>
+        </div>
+
+    </div>
+      
+    <!-- JavaScript -->
+    <script src="guessing.js"></script>
+
+  </body>
+</html>
